@@ -20,6 +20,6 @@ var oyun = [
         }, 2 * 2500);
     
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] Bot aktif edildi!`);
-  client.user.setStatus("dnd");
+  client.user.setStatus("online");
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] Komutlar yüklendi!`);
 };

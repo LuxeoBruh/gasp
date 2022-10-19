@@ -8,9 +8,9 @@ exports.run = async(client, message, args) => {
     kanal.setParent(
     kanal.guild.channels.cache.find(channel => channel.id === channelp))
     const embed = new dc.MessageEmbed()
-    .setTitle("Bu Kanal Nukelendi!")
+    .setTitle("Kanalı Patlattım! 💣")
     .setColor("ORANGE")
-    .setImage("https://tenor.com/view/destory-eexplode-nuke-gif-6073338")
+    .setImage("https://tenor.com/view/goku-anime-gif-25294136")
     z.send(embed)
     })
   };

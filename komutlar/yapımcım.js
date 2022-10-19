@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 exports.run = (client, message, args) => {
   const mrt = new Discord.MessageEmbed()
     .setColor("#00ee00")
-    .setDescription("> Yapımcım : <@725110280249540708>")
+    .setDescription("> Yapımcım : <@956989487001518090>")
     .setFooter(" yapımcım ") ///İd nizi yukarı tarafa yazın
   message.channel.send(mrt);
 };

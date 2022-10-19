@@ -13,19 +13,15 @@ exports.run = async (client, message, args) => {
 
 🔨 | Prefixim : ${prefix}
 
-🎯 | **!eğlence:** = Eğlence komutlarını görüntersiniz.
+🎯 | ** ${prefix}eğlence:** = Eğlence komutlarını görüntersiniz.
 
-🌌 | **!gif:** = Gif komutlarını görüntersiniz.
+🌌 | ** ${prefix}gif:** = Gif komutlarını görüntersiniz.
 
-🤖 | **!bot:** = Botun ana komutlarını görüntersiniz.
+🤖 | ** ${prefix}bot:** = Botun ana komutlarını görüntersiniz.
 
 
-💥Bağlantılar 
 
-**» Botun Destek sunucusu** [Destek sunucusu](https://discord.gg/erTqUNqSUd)
-`)
-.setImage("https://media.discordapp.net/attachments/773998338999058453/790319445381873684/standard.gif")
-
+}
  message.channel.send(embed) 
 
 }
