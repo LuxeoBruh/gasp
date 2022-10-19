@@ -22,7 +22,7 @@ exports.run = async (client, message, args) => {
 :white_small_square: | **${prefix}salak:** = salak gif atar :D.
 :white_small_square: | **${prefix}yapımcım:** = yapımcımı gösterir.
 :white_small_square: | **${prefix}aşkölçer:** = etiketleiğiniz kişiyle aşk derecenizi gösterir.
-:white_small_square: | **${prefix}espiri:** = espiri yaparsınız.
+:white_small_square: | **${prefix}espri:** = espiri yaparsınız.
 :white_small_square: | **${prefix}lafat:** = Bot laf atar.
 :white_small_square: | **${prefix}türk:** = Bot türkiye gifi gösterir.
 :white_small_square: | **${prefix}ara155:** = 155'i arasınız.
