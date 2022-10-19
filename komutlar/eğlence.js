@@ -28,12 +28,10 @@ exports.run = async (client, message, args) => {
 :white_small_square: | **${prefix}ara155:** = 155'i arasınız.
 :white_small_square: | **${prefix}yazankazanır:** = ilk yazan kazanır :D
 
-
-
-
 💥Bağlantılar 
 **»** [Yapımcıyla iletişim](https://linktr.ee/gaaasp)
 `)
+.setImage("https://media.tenor.com/D55R-SuFKGgAAAAC/kids-goku-peace.gif")
 
  message.channel.send(embed) 
 }

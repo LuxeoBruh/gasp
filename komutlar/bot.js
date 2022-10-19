@@ -27,10 +27,8 @@ exports.run = async (client, message, args) => {
 
 💥Bağlantılar 
 **» Botun Destek sunucusu** [Yapımcıyla iletişim](https://linktr.ee/gaaasp)
-
-
 `)
-
+.setImage("https://media.tenor.com/z3AUO0Bi7vsAAAAd/skeletons-berserk.gif")
 
 
  message.channel.send(embed) 
