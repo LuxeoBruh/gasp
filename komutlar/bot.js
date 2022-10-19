@@ -15,21 +15,18 @@ exports.run = async (client, message, args) => {
 
 :white_small_square: | **${prefix}test:** = botun çalıştığınız yada çalışmadığı söyler.
 :white_small_square: | **${prefix}oylama:** = oyalma yaprsınız.
+:white_small_square: | **${prefix}sunucubilgi:** = sunucuhakkında bilgi verir.
 :white_small_square: | **${prefix}id:** = istediğiniz kișinin idsini atar.
-:white_small_square: | **${prefix}türk:** = türk gif atar.
 :white_small_square: | **${prefix}toplamkomut:** = toplam komutu gösterir.
 :white_small_square: | **${prefix}sil:** = Belirtiğiz sayıda mesajı siler.
 :white_small_square: | **${prefix}yapımcım:** = Botun yapımcısını gösterir.
 :white_small_square: | **${prefix}yavașmod:** = Herhangi bir kanalda slowmode açarsınız.
 :white_small_square: | **${prefix}nuke:** = Bot belirtiğiniz bir kanalı silip tekrar acar.
-:white_small_square: | **${prefix}kick:** = belirtiğiniz kișiyi sunucudan atar.
 :white_small_square: | **${prefix}bansay:** = sunucunuzda banlanan toplam sayıyı gösterir.
 :white_small_square: | **${prefix}ping:** = Botun pingini gösterir.
 
 
 
-💥Bağlantılar 
-**» Botun Destek sunucusu** [Destek sunucusu](https://discord.gg/erTqUNqSUd)
 
 `)
 

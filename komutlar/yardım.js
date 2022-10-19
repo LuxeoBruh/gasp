@@ -7,8 +7,8 @@ exports.run = async (client, message, args) => {
 
 
 
-.setColor('YELLOW')
-  .setTitle(ayarlar.botisim + ' Yardım Menüsüne Hoșgeldin 👋')
+.setColor('RANDOM')
+  .setTitle(ayarlar.botisim + 'Yardım Menüsü.')
   .setDescription(`
 
 🔨 | Prefixim : ${prefix}
@@ -19,10 +19,10 @@ exports.run = async (client, message, args) => {
 
 🤖 | ** ${prefix}bot:** = Botun ana komutlarını görüntersiniz.
 
+`)
 
 
-}
- message.channel.send(embed) 
+ message.channel.send(embed)
 
 }
 
