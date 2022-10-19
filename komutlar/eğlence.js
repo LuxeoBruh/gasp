@@ -20,20 +20,19 @@ exports.run = async (client, message, args) => {
 :white_small_square: | **${prefix}kralol:** = kral olursun.
 :white_small_square: | **${prefix}kedi:** = kedi gif.
 :white_small_square: | **${prefix}salak:** = salak gif atar :D.
-:white_small_square: | **${prefix}korona :** = korona sayısını gösterir.
 :white_small_square: | **${prefix}yapımcım:** = yapımcımı gösterir.
 :white_small_square: | **${prefix}aşkölçer:** = etiketleiğiniz kişiyle aşk derecenizi gösterir.
 :white_small_square: | **${prefix}espiri:** = espiri yaparsınız.
 :white_small_square: | **${prefix}lafat:** = Bot laf atar.
 :white_small_square: | **${prefix}türk:** = Bot türkiye gifi gösterir.
-:white_small_square: | **vara155:** = 155'i arasınız.
-:white_small_square: | **!yazankazanır:** = ilk yazan kazanır :D
+:white_small_square: | **${prefix}ara155:** = 155'i arasınız.
+:white_small_square: | **${prefix}yazankazanır:** = ilk yazan kazanır :D
 
 
 
 
 💥Bağlantılar 
-**» Botun Destek sunucusu** [Destek sunucusu](https://discord.gg/erTqUNqSUd)
+**»** [Yapımcıyla iletişim](https://linktr.ee/gaaasp)
 `)
 
  message.channel.send(embed) 

@@ -11,14 +11,17 @@ exports.run = async (client, message, args) => {
   .setTitle(ayarlar.botisim + 'Yardım Menüsü.')
   .setDescription(`
 
-🔨 | Prefixim : ${prefix}
+
 
 🎯 | ** ${prefix}eğlence:** = Eğlence komutlarını görüntersiniz.
 
-🌌 | ** ${prefix}gif:** = Gif komutlarını görüntersiniz.
+🌌 | ** ${prefix}gif:** = Gif komutlarını görüntersiniz. (Düzgün Çalışmıyor.)
 
 🤖 | ** ${prefix}bot:** = Botun ana komutlarını görüntersiniz.
 
+
+💥Bağlantılar 
+**»** [Yapımcıyla iletişim](https://linktr.ee/gaaasp)
 `)
 
 

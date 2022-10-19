@@ -25,7 +25,8 @@ exports.run = async (client, message, args) => {
 :white_small_square: | **${prefix}bansay:** = sunucunuzda banlanan toplam sayıyı gösterir.
 :white_small_square: | **${prefix}ping:** = Botun pingini gösterir.
 
-
+💥Bağlantılar 
+**» Botun Destek sunucusu** [Yapımcıyla iletişim](https://linktr.ee/gaaasp)
 
 
 `)

@@ -13,19 +13,19 @@ exports.run = async (client, message, args) => {
 
 
 
-:white_small_square: | **!animal:** = Bot hayvan gif atar.
-:white_small_square: | **!anime:** = Bot anime  gif atar.
-:white_small_square: | **!baby:** = Bot bebek gif atar.
-:white_small_square: | **!man:** = Bot erkek gif atar.
-:white_small_square: | **!woman:** = Bot kadın gif atar.
-:white_small_square: | **!türk:** = Bot türk gif atar.
+:white_small_square: | **${prefix}animal:** = Bot hayvan gif atar.
+:white_small_square: | **${prefix}anime:** = Bot anime  gif atar.
+:white_small_square: | **${prefix}baby:** = Bot bebek gif atar.
+:white_small_square: | **${prefix}man:** = Bot erkek gif atar.
+:white_small_square: | **${prefix}woman:** = Bot kadın gif atar.
+:white_small_square: | **${prefix}türk:** = Bot türk gif atar.
 
 
 
 
 💥Bağlantılar 
 
-**» Botun Destek sunucusu** [Destek sunucusu](https://discord.gg/erTqUNqSUd)
+**»** [Yapımcıyla İletişim](https://linktr.ee/gaaasp)
 
 `)
 
