@@ -23,7 +23,7 @@ exports.run = async (client, message, args) => {
 💥Bağlantılar 
 **»** [Yapımcıyla iletişim](https://linktr.ee/gaaasp)
 `)
-
+.setImage("https://media4.giphy.com/media/mo2L2UIfoglzbMrEMZ/giphy.gif?cid=790b7611ccb0825253b8a1174d336ec4d161d8df036e99ce&rid=giphy.gif&ct=g")
  message.channel.send(embed)
 
 }
