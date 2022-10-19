@@ -7,8 +7,8 @@ var prefix = ayarlar.prefix;
 
 module.exports = client => {
 var oyun = [
- 'YouTube : Murat Eren',
- 'Abone Ol!'
+ 'Aeroix Bot | Developed by Gasp',
+ 'Prefix : "."'
  
     ];
 
