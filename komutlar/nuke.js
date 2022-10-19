@@ -10,7 +10,7 @@ exports.run = async(client, message, args) => {
     const embed = new dc.MessageEmbed()
     .setTitle("Kanalı Patlattım! 💣")
     .setColor("ORANGE")
-    .setImage("https://tenor.com/view/goku-anime-gif-25294136")
+    .setImage("https://media2.giphy.com/media/WOb8EeFziTQNE02WXs/giphy.gif?cid=ecf05e47zx1cg6kn3t2tgxxkbg835jzz9x6j18e70qqn7rqz&rid=giphy.gif&ct=g")
     z.send(embed)
     })
   };
