@@ -19,6 +19,8 @@ exports.run = async (client, message, args) => {
 
 🤖 | ** ${prefix}bot:** = Botun ana komutlarını görüntersiniz.
 
+❤️‍🔥 | ** ${prefix}davet:** = Botu sunucunuza davet edersiniz. (Çok güzel Olur🫡)
+
 
 💥Bağlantılar 
 **»** [Yapımcıyla iletişim](https://linktr.ee/gaaasp)
