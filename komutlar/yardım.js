@@ -24,7 +24,6 @@ exports.run = async (client, message, args) => {
 **»** [Yapımcıyla iletişim](https://linktr.ee/gaaasp)
 `)
 
-
  message.channel.send(embed)
 
 }
