@@ -15,7 +15,7 @@ exports.run = async (client, message, args) => {
 
 🎯 | ** ${prefix}eğlence:** = Eğlence komutlarını görüntersiniz.
 
-🌌 | ** ${prefix}gif:** = Gif komutlarını görüntersiniz. (Düzgün Çalışmıyor.)
+🌌 | ** ${prefix}gif:** = Gif komutlarını görüntersiniz. (Bakımda.)
 
 🤖 | ** ${prefix}bot:** = Botun ana komutlarını görüntersiniz.
 
