@@ -20,9 +20,6 @@ exports.run = async (client, message, args) => {
 :white_small_square: | **${prefix}woman:** = Bot kadın gif atar.
 :white_small_square: | **${prefix}türk:** = Bot türk gif atar.
 
-
-
-
 💥Bağlantılar 
 
 **»** [Yapımcıyla İletişim](https://linktr.ee/gaaasp)
