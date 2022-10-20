@@ -8,7 +8,7 @@ exports.run = async (client, message, args) => {
 
 
 .setColor('RANDOM')
-  .setTitle(ayarlar.botisim + 'Yardım Menüsü.')
+  .setTitle(ayarlar.botisim  +  ' Yardım Menüsü.')
   .setDescription(`
 
 
@@ -19,7 +19,7 @@ exports.run = async (client, message, args) => {
 
 🤖 | ** ${prefix}bot:** = Botun ana komutlarını görüntersiniz.
 
-❤️‍🔥 | ** ${prefix}davet:** = Botu sunucunuza davet edersiniz. (Çok güzel Olur🫡)
+❤️‍🔥 | ** ${prefix}davet:** = Botu sunucunuza davet edersiniz.
 
 
 💥Bağlantılar 

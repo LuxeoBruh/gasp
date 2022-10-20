@@ -14,6 +14,7 @@ exports.run = async (client, message, args) => {
 
 
 :white_small_square: | **${prefix}test:** = botun çalıştığınız yada çalışmadığı söyler.
+:white_small_square: | **${prefix}botbilgi:** = botun istatistiklerini sizinle paylaşır.
 :white_small_square: | **${prefix}oylama:** = oyalma yaprsınız.
 :white_small_square: | **${prefix}sunucubilgi:** = sunucuhakkında bilgi verir.
 :white_small_square: | **${prefix}id:** = istediğiniz kișinin idsini atar.
