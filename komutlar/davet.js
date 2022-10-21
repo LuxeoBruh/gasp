@@ -4,6 +4,7 @@ exports.run = (client, message, args) => {
 let embed = new Discord.MessageEmbed()
 .setDescription('**» Botun davet linki -->** [Tıkla ve davet et!](https://discord.com/api/oauth2/authorize?client_id=970727729173512244&permissions=8&scope=bot)')
 .setImage("https://media.tenor.com/vcjRrrH68p8AAAAC/shinsu-sword.gif")
+.setColor("RANDOM")
 message.channel.send(embed)
 };
 exports.conf = {
