@@ -4,9 +4,11 @@ exports.run = function(client, message, args,params) {
   if (args.length < 1) {
     return message.reply('Çalışıyorum Ab')
   }
+  
    
 message.channel.send("Çalışıyorum Ab")
 };
+
 
 exports.conf = {
   aliases: [ ],
