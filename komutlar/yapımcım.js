@@ -4,7 +4,7 @@ exports.run = (client, message, args) => {
   const mrt = new Discord.MessageEmbed()
     .setColor("#00ee00")
     .setDescription("> Yapımcım : <@956989487001518090>")
-    .setFooter(" yapımcım ") ///İd nizi yukarı tarafa yazın
+    .setFooter("") ///İd nizi yukarı tarafa yazın
     .setImage("https://media.tenor.com/NnNJ-1aMBogAAAAC/luffy.gif")
   message.channel.send(mrt);
 };
