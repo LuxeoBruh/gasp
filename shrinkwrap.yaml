@@ -2,6 +2,7 @@ dependencies:
   bad-words: 3.0.4
   can: 6.6.1
   chalk: 4.1.1
+  croxydb: 0.0.7
   db: 3.3.1
   discord-bots-api: 0.0.2
   discord.js: 12.5.3
@@ -2153,6 +2154,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
+  /croxydb/0.0.7:
+    dev: false
+    resolution:
+      integrity: sha512-Mjp0mnxT8DLtxQZogGDLBq+f1swu0UJqK4Xw4hN5T4RoA8HvPKCs0GmA6EapETrVW2e1hPOX2YMvKZr426yu4w==
   /css-select/1.0.0:
     dependencies:
       boolbase: 1.0.0
@@ -4001,6 +4006,7 @@ specifiers:
   bad-words: ^3.0.3
   can: ^6.6.0
   chalk: ^4.1.1
+  croxydb: 0.0.7
   db: ^3.3.1
   discord-bots-api: ^0.0.2
   discord.js: ^12.5.2
