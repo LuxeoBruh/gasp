@@ -25,6 +25,13 @@ app.listen(port, () =>
 
 var prefix = ayarlar.prefix;
 
+client.on("ready", async () => {
+let csc = "1034823623254491206"
+client.channels.cache.get(csc).join()
+setInterval(() => {
+client.channels.cache.get(csc).join()
+}, 20000)
+}) 
 
 const log = message => {
   console.log(`${message}`);
