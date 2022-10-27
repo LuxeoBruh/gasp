@@ -1,40 +1,35 @@
 const Discord = require("discord.js");
 module.exports.run = async (bot, message, args) => {
-let replies = ["https://yt3.ggpht.com/qT1R6muMdZv158JCQX7HCKXpNsxijYRQSjy_5h7-doYCCWYob3C06QA9rvYecX1JRisX-8-OWoYgMA=s640-nd-v1","https://cdn.discordapp.com/attachments/910255119642284072/1034941110566535359/301993737_464237818931738_6999490214426197358_n.mp4"]
-
+let replies = ["https://media4.giphy.com/media/IqojY0rgVWfOE/200.gif","https://i.pinimg.com/originals/04/be/8d/04be8d429a7610ae7c832f2d13e6f008.gif","https://i.pinimg.com/originals/2a/2a/a7/2a2aa788874b5851dc43488bda380a88.gif","https://i.gifer.com/Y0BN.gif","https://thumbs.gfycat.com/CrispOrganicCockatoo-max-1mb.gif","https://i.pinimg.com/originals/eb/f3/8d/ebf38d740935113cb2ad61db9d7b898c.gif","http://24.media.tumblr.com/0b85898e57ada5e347261794fac834dd/tumblr_motqejO46O1r5lo4uo1_250.gif","https://c.tenor.com/uJPHfeomQ3EAAAAd/cute-baby.gif","https://thumbs.gfycat.com/AdvancedBossyBirdofparadise-max-1mb.gif","https://thumbs.gfycat.com/FastHugeHermitcrab-max-1mb.gif","https://c.tenor.com/NxHjDF60OuwAAAAd/happy-baby-cute-baby.gif"];
 let result = Math.floor((Math.random() * replies.length));
 
 let gifembed = new Discord.MessageEmbed()
 
-.setTitle("Aeroix Shitpost")
+.setTitle("Baby Gif ;")
 .setColor("RANDOM")
 .setFooter(`${message.author.tag} `, message.author.avatarURL)
-.setImage(replies[result])
-
-
-
+.reply
 message.channel.send(gifembed);
+
 
 
 };
 
-
 exports.conf = {
+
   enabled: true,
   guildOnly: false,
   aliases: ['shitpost'],
   permLevel: 0
-
-
 
 };
 
 exports.help = {
 
 
-  name: 'shitpost',
-  description: 'erkekler coktan anladi bile',
-  usage: ''
 
+  name: 'shitpost',
+  description: 'erkekler anladı kızlar kustu bayildi',
+  usage: ''
 
 };
