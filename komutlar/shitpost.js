@@ -2,17 +2,17 @@ const Discord = require("discord.js");
 
 module.exports.run = async (bot, message, args) => {
 
-let replies = []
+let replies = [];
 let result = Math.floor((Math.random() * replies.length));
 
-let gifembed = new Discord.MessageEmbed()
+let videoembed = new Discord.MessageEmbed()
 
 .setTitle("Sorumluluk bana ait değil ;")
 .setColor("RANDOM")
 .setFooter(`${message.author.tag} `, message.author.avatarURL)
 
 .setImage(replies[result]);
-message.channel.send(gifembed);
+message.channel.send(videoembed);
 
 
 
