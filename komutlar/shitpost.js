@@ -4,7 +4,7 @@ let replies = ["https://media4.giphy.com/media/IqojY0rgVWfOE/200.gif","https://i
 let result = Math.floor((Math.random() * replies.length));
 
 
-
+if ( message.content == 
 
 
 };
