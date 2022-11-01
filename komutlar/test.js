@@ -2,11 +2,11 @@ const discord = require('discord.js')
 exports.run = function(client, message, args,params) {
 
   if (args.length < 1) {
-    return message.reply('Çalışıyorum Ab')
+    return message.reply('Bot başarıyla çalışıyor! :smirk: ')
   }
   
    
-message.channel.send("Çalışıyorum Ab")
+message.channel.send("Bot başarıyla çalışıyor! :smirk: ")
 };
 
 

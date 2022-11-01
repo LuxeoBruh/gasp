@@ -1,48 +1,99 @@
-const Discord = require('discord.js');
-const fs = require('fs');
-const db = require('quick.db');
+module.exports.run = async (client, message, args) => {
 
-exports.run = (client, message, args) => {
+    if (!message.member.permissions.has("BAN_MEMBERS"))
+    return message
+      .channel.send({ content: "> :x: **Başarısız!** Ban yetkin yok." })
+      .catch((err) => {});
+  if (!message.guild.me.permissions.has("BAN_MEMBERS"))
+    return message
+      .channel.send({ content: "> :x: **Başarısız!** Benim ban yetkim yok"})
+      .catch((err) => {});
 
-if(db.fetch(`bakimmod`)) {
+  let sebep = args.slice(1).join(" ") || "Belirtilmemiş";
 
-  if(message.author.id !== "683752128644251660") return message.channel.send('')
+  let member;
+  let member1 = message.mentions.members.first();
+  let member2 = message.guild.members.cache.get(args[0]);
+  if (member1) {
+    member = member1.id;
+  }
+  if (member2) {
+    member = member2.id;
+  }
+  if (!member1 && !member2) {
+    member = args[0];
+  }
 
-}
+  if (!member)
+    return message
+      .channel.send({
+        content: "> :x: **Başarısız!** Kullanıcı istiyorum ben, bana açım açım."
+      })
+      .catch((err) => {});
 
+  let kullanıcı = message.guild.members.cache.get(member);
 
-if (!message.member.permissions.has("ADMINISTRATOR")) return message.channel.send(`Bu komutu kullanabilmek için "\`Yönetici\`" yetkisine sahip olmalısın.`);
-if (!message.guild) {
-  const ozelmesajuyari = new Discord.MessageEmbed()
-    .setColor('RANDOM')
-  .setTimestamp()
-  .setAuthor(message.author.username, message.author.avatarURL)
-  .addField('Uyarı', '`ban` adlı komutu özel mesajlarda kullanamazsın.')
-  return message.author.send(ozelmesajuyari); }
-  let guild = message.guild
-  let reason = args.slice(1).join(' ');
-  let dızcılaraselam = message.mentions.users.first();
+  if (kullanıcı) {
 
-  if (message.mentions.users.size < 1) return message.channel.send(`Lütfen sunucudan yasaklayacağınız kişiyi etiketleyin.`).catch(console.error);
+    if (message.guild.owner.id === member)
+      return message
+        .channel.send({
+          content: "> :x: **Başarısız!** Sunucu sahibini banliyamazsın"
+        })
+        .catch((err) => {});
+    if (message.author.id === member)
+      return message
+        .channel.send({
+          content: "> :x: **Başarısız!**"
+        })
+        .catch((err) => {});
+    if (client.user.id === member)
+      return message
+        .channel.send({
+          content: "> :x: **Başarısız!** Beni mi banlıyacaksın :("
+        })
+        .catch((err) => {});
 
-  if (!message.guild.member(dızcılaraselam).bannable) return message.channel.send(`❌ Belirttiğiniz kişinin Yetkisi Benden Daha Üstün!`);
-  message.guild.member(dızcılaraselam).ban();
+    if (message.guild.owner.id !== message.author.id) {
+      if (kullanıcı.roles.highest.position >= message.member.roles.highest.position)
+        return message
+          .channel.send({
+            content: "> :x: **Başarısız!** kullanıcının rolü senden yüksek"
+          })
+          .catch((err) => {});
+    }
 
-  message.channel.send(" Başarılı, " + dızcılaraselam + " **İD'li kullanıcı** " + reason + " **sebebiyle sunucudan yasaklandı.**")
-     
+    if (kullanıcı.roles.highest.position >= message.guild.me.roles.highest.position)
+      return message
+        .channel.send({
+          content: "> :x: **Başarısız!** Kullanıcının rolü benim rolümden yüksek."
+        })
+        .catch((err) => {});
+  }
+
+  message.guild.members
+    .ban(member, {
+      days: 7,
+      reason: `By: ${message.author.tag} Reason: ` + sebep || "Belirtilmemiş",
+    })
+    .then(() => {
+      message.channel.send({
+        content: `> ✅ **Başarılı!** Kullanıcı başarıyla sunucudan banlandı!`
+      });
+    })
+    .catch((e) => {
+      message
+        .channel.send({
+          content: `> :x: **Başarısız!** Kullanıcıyı sunucudan banlarken hata aldım. \n**Hata:** \`\`\`${e.name + ": " + e.message}\`\`\``,
+        })
+        .catch((err) => {});
+    });
+
+};
+module.exports.conf = {
+  aliases: []
 };
 
-exports.conf = {
-  enabled: true,
-  guildOnly: true,
-  aliases: ['ban'],
-  permLevel: 0,
-    kategori: "moderasyon",
-};
-
-exports.help = {
-  name: 'ban',
-  description: 'İstediğiniz kişiyi sunucudan yasaklar.',
-  usage: 'ban <@kullanıcı> <sebep>',
- 
+module.exports.help = {
+  name: "ban"
 };
