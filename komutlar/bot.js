@@ -20,6 +20,7 @@ exports.run = async (client, message, args) => {
 :white_small_square: | **${prefix}id:** = istediğiniz kișinin idsini atar.
 :white_small_square: | **${prefix}toplamkomut:** = toplam komutu gösterir.
 :white_small_square: | **${prefix}sil:** = Belirtiğiz sayıda mesajı siler.
+:white_small_square: | **${prefix}ban:** = Belirtiğiz kişiyi sunucudan atar.
 :white_small_square: | **${prefix}yapımcım:** = Botun yapımcısını gösterir.
 :white_small_square: | **${prefix}yavașmod:** = Herhangi bir kanalda slowmode açarsınız.
 :white_small_square: | **${prefix}nuke:** = Bot belirtiğiniz bir kanalı silip tekrar acar.
