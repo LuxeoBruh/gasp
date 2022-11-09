@@ -9,7 +9,7 @@ module.exports = (client) => {
   var oyun = [
     "Aeroix Bot | Developed by Gasp",
     'Prefix : "."',
-  ];t
+  ];
 
   setInterval(function () {
     var random = Math.floor(Math.random() * (oyun.length - 0 + 1) + 0);
